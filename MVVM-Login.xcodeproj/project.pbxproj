@@ -15,6 +15,13 @@
 		80310D8B2109C47B00F63CDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80310D8A2109C47B00F63CDF /* main.m */; };
 		80310D952109C47B00F63CDF /* MVVM_LoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80310D942109C47B00F63CDF /* MVVM_LoginTests.m */; };
 		80310DA02109C47B00F63CDF /* MVVM_LoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80310D9F2109C47B00F63CDF /* MVVM_LoginUITests.m */; };
+		80310DB42109C5F600F63CDF /* DCLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80310DB32109C5F600F63CDF /* DCLoginView.m */; };
+		80310DB72109C60300F63CDF /* DCLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80310DB62109C60300F63CDF /* DCLoginViewModel.m */; };
+		80310DBA2109C71900F63CDF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 80310DB92109C71900F63CDF /* UIView+Extension.m */; };
+		80310DBF2109CA0600F63CDF /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 80310DBD2109CA0600F63CDF /* UIViewController+HUD.m */; };
+		80310DC22109CB8B00F63CDF /* NSObject+CurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80310DC12109CB8B00F63CDF /* NSObject+CurrentVC.m */; };
+		80310DC52109CD2800F63CDF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80310DC42109CD2800F63CDF /* HomeViewController.m */; };
+		A91EE98B2F93AA919400C480 /* libPods-MVVM-Login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A95C29CCAADB640ED202F11A /* libPods-MVVM-Login.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CA6C791FF5C45898A8A3765 /* Pods-MVVM-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-Login.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM-Login/Pods-MVVM-Login.debug.xcconfig"; sourceTree = "<group>"; };
 		80310D782109C47600F63CDF /* MVVM-Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80310D7B2109C47600F63CDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80310D7C2109C47600F63CDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,21 @@
 		80310D9B2109C47B00F63CDF /* MVVM-LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80310D9F2109C47B00F63CDF /* MVVM_LoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVM_LoginUITests.m; sourceTree = "<group>"; };
 		80310DA12109C47B00F63CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80310DB22109C5F600F63CDF /* DCLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCLoginView.h; sourceTree = "<group>"; };
+		80310DB32109C5F600F63CDF /* DCLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLoginView.m; sourceTree = "<group>"; };
+		80310DB52109C60300F63CDF /* DCLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCLoginViewModel.h; sourceTree = "<group>"; };
+		80310DB62109C60300F63CDF /* DCLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLoginViewModel.m; sourceTree = "<group>"; };
+		80310DB82109C71900F63CDF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		80310DB92109C71900F63CDF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		80310DBB2109C72700F63CDF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		80310DBD2109CA0600F63CDF /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		80310DBE2109CA0600F63CDF /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		80310DC02109CB8B00F63CDF /* NSObject+CurrentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CurrentVC.h"; sourceTree = "<group>"; };
+		80310DC12109CB8B00F63CDF /* NSObject+CurrentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CurrentVC.m"; sourceTree = "<group>"; };
+		80310DC32109CD2800F63CDF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		80310DC42109CD2800F63CDF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A95C29CCAADB640ED202F11A /* libPods-MVVM-Login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM-Login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB20FB0244562C406C91DA7A /* Pods-MVVM-Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-Login.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM-Login/Pods-MVVM-Login.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91EE98B2F93AA919400C480 /* libPods-MVVM-Login.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,8 @@
 				80310D932109C47B00F63CDF /* MVVM-LoginTests */,
 				80310D9E2109C47B00F63CDF /* MVVM-LoginUITests */,
 				80310D792109C47600F63CDF /* Products */,
+				A25A0CAC1E75F560F373D012 /* Pods */,
+				CDF3298090604B773E06C0D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +127,20 @@
 		80310D7A2109C47600F63CDF /* MVVM-Login */ = {
 			isa = PBXGroup;
 			children = (
+				80310DB02109C5E100F63CDF /* View */,
+				80310DB12109C5E100F63CDF /* ViewController */,
+				80310DAF2109C5E100F63CDF /* ViewModel */,
 				80310D7B2109C47600F63CDF /* AppDelegate.h */,
 				80310D7C2109C47600F63CDF /* AppDelegate.m */,
-				80310D7E2109C47600F63CDF /* ViewController.h */,
-				80310D7F2109C47600F63CDF /* ViewController.m */,
+				80310DC32109CD2800F63CDF /* HomeViewController.h */,
+				80310DC42109CD2800F63CDF /* HomeViewController.m */,
+				80310DBC2109C9E500F63CDF /* Other */,
 				80310D812109C47600F63CDF /* Main.storyboard */,
 				80310D842109C47B00F63CDF /* Assets.xcassets */,
 				80310D862109C47B00F63CDF /* LaunchScreen.storyboard */,
 				80310D892109C47B00F63CDF /* Info.plist */,
 				80310D8A2109C47B00F63CDF /* main.m */,
+				80310DBB2109C72700F63CDF /* PrefixHeader.pch */,
 			);
 			path = "MVVM-Login";
 			sourceTree = "<group>";
@@ -132,6 +163,63 @@
 			path = "MVVM-LoginUITests";
 			sourceTree = "<group>";
 		};
+		80310DAF2109C5E100F63CDF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				80310DB52109C60300F63CDF /* DCLoginViewModel.h */,
+				80310DB62109C60300F63CDF /* DCLoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		80310DB02109C5E100F63CDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80310DB22109C5F600F63CDF /* DCLoginView.h */,
+				80310DB32109C5F600F63CDF /* DCLoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80310DB12109C5E100F63CDF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				80310D7E2109C47600F63CDF /* ViewController.h */,
+				80310D7F2109C47600F63CDF /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		80310DBC2109C9E500F63CDF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				80310DB82109C71900F63CDF /* UIView+Extension.h */,
+				80310DB92109C71900F63CDF /* UIView+Extension.m */,
+				80310DBE2109CA0600F63CDF /* UIViewController+HUD.h */,
+				80310DBD2109CA0600F63CDF /* UIViewController+HUD.m */,
+				80310DC02109CB8B00F63CDF /* NSObject+CurrentVC.h */,
+				80310DC12109CB8B00F63CDF /* NSObject+CurrentVC.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A25A0CAC1E75F560F373D012 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CA6C791FF5C45898A8A3765 /* Pods-MVVM-Login.debug.xcconfig */,
+				EB20FB0244562C406C91DA7A /* Pods-MVVM-Login.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDF3298090604B773E06C0D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A95C29CCAADB640ED202F11A /* libPods-MVVM-Login.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80310DA42109C47B00F63CDF /* Build configuration list for PBXNativeTarget "MVVM-Login" */;
 			buildPhases = (
+				DC4034D0ACCA710D83E3E7F9 /* [CP] Check Pods Manifest.lock */,
 				80310D742109C47600F63CDF /* Sources */,
 				80310D752109C47600F63CDF /* Frameworks */,
 				80310D762109C47600F63CDF /* Resources */,
@@ -257,14 +346,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DC4034D0ACCA710D83E3E7F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM-Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80310D742109C47600F63CDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80310DBA2109C71900F63CDF /* UIView+Extension.m in Sources */,
+				80310DB72109C60300F63CDF /* DCLoginViewModel.m in Sources */,
 				80310D802109C47600F63CDF /* ViewController.m in Sources */,
 				80310D8B2109C47B00F63CDF /* main.m in Sources */,
 				80310D7D2109C47600F63CDF /* AppDelegate.m in Sources */,
+				80310DC52109CD2800F63CDF /* HomeViewController.m in Sources */,
+				80310DBF2109CA0600F63CDF /* UIViewController+HUD.m in Sources */,
+				80310DC22109CB8B00F63CDF /* NSObject+CurrentVC.m in Sources */,
+				80310DB42109C5F600F63CDF /* DCLoginView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +547,12 @@
 		};
 		80310DA52109C47B00F63CDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA6C791FF5C45898A8A3765 /* Pods-MVVM-Login.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVVM-Login/PrefixHeader.pch";
 				INFOPLIST_FILE = "MVVM-Login/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +566,12 @@
 		};
 		80310DA62109C47B00F63CDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB20FB0244562C406C91DA7A /* Pods-MVVM-Login.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVVM-Login/PrefixHeader.pch";
 				INFOPLIST_FILE = "MVVM-Login/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
